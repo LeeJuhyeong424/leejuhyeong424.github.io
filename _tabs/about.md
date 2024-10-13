@@ -4,5 +4,39 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+## <i class="fas fa-globe"></i> **웹 개발과 CMS, NSIS, 마인크래프트 관련 기록과 공유**
+
+**JHDevBlog**는 **Chirpy 테마**, **라이믹스(Rhymix)**, **NSIS**, 그리고 **마인크래프트** 관련 개발을 다루는 블로그입니다.  
+이 블로그는 **Chirpy 테마**의 설정과 커스터마이징, **라이믹스** CMS의 활용법, **NSIS**를 이용한 설치 프로그램 개발, 그리고 **마인크래프트** 서버 운영과 플러그인 개발에 대한 내용을 공유하고 기록하는 공간입니다.
+
+---
+
+## <i class="fas fa-tools"></i> **내 관심 기술 스택**  
+
+- <i class="fas fa-tools"></i> **NSIS** (Nullsoft Scriptable Install System): 설치 프로그램 개발
+- <i class="fas fa-gamepad"></i> **마인크래프트** 서버 운영 및 플러그인 개발 🎮
+- <i class="fas fa-laptop-code"></i> **Chirpy 테마**와 **라이믹스(Rhymix)**를 이용한 웹사이트 개발
+
+---
+
+## <i class="fas fa-code"></i> **개발 도구 & 기술 스택**
+
+### <i class="fas fa-paint-brush"></i> **Chirpy 테마**  
+정적 사이트 생성기 Jekyll을 기반으로 만든 블로그의 테마입니다.
+
+### <i class="fas fa-cogs"></i> **라이믹스(Rhymix)**  
+웹사이트 관리 및 구축을 돕는 CMS 플랫폼입니다.
+
+### <i class="fas fa-tools"></i> **NSIS**  
+Windows용 설치 프로그램을 만들 수 있는 강력한 스크립팅 도구입니다.
+
+### <i class="fas fa-gamepad"></i> **마인크래프트 서버**  
+서버 운영 및 플러그인 개발을 통해 커스터마이징한 마인크래프트 환경을 제공합니다.
+
+---
+
+## <i class="fas fa-lightbulb"></i> **블로그 목표**  
+
+이 블로그는 **기술적인 지식**을 **공유**하고, 제 개발 여정과 **기술적 기록**을 남기는 것을 목표로 하고 있습니다. 다양한 프로젝트와 도전 과정을 기록하고, 이를 통해 독자들이 실용적인 정보를 얻을 수 있도록 돕는 공간입니다.
+
+---
