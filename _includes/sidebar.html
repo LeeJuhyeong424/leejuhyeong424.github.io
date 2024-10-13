@@ -70,7 +70,7 @@
             javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
           {%- endcapture -%}
         {% when 'rss' %}
-          {% assign url = '/feed.xml' | relative_url %}
+          {% assign url = '/rss.xml' | relative_url %}
         {% when 'sitemap' %}
           {% assign url = '/sitemap.xml' | relative_url %}
         {% else %}

@@ -48,6 +48,9 @@
 
   {{ seo_tags }}
 
+  <!-- RSS Feed 링크 추가 -->
+  <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/assets/rss.xml">
+
   <title>
     {%- unless page.layout == 'home' -%}
       {{ page.title | append: ' | ' }}
