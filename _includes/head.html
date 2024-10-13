@@ -13,14 +13,6 @@
     {% seo title=false %}
   {%- endcapture -%}
 
-  <!-- Custom Webmaster Verification Tags -->
-   
-  {% if site.webmaster_verifications.naver %}
-    <meta name="naver-site-verification" content="{{ site.webmaster_verifications.naver }}">
-  {% endif %}
-
-  <!-- Setup Open Graph image -->
-
   {% if page.image %}
     {% assign src = page.image.path | default: page.image %}
 
