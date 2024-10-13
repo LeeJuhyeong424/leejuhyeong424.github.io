@@ -1,20 +1,31 @@
-version: 2
+version: 2  # 설정 파일의 버전
 updates:
-  - package-ecosystem: "bundler"
-    directory: "/"
+  - package-ecosystem: "bundler"  # Bundler (Ruby의 패키지 관리 도구) 업데이트 설정
+    directory: "/"  # 루트 디렉토리에서 업데이트 적용
     schedule:
-      interval: "weekly"
-  - package-ecosystem: "npm"
-    directory: "/"
-    versioning-strategy: increase
+      interval: "weekly"  # 매주 업데이트 확인
+
+  - package-ecosystem: "npm"  # npm (Node.js의 패키지 관리 도구) 업데이트 설정
+    directory: "/"  # 루트 디렉토리에서 업데이트 적용
+    versioning-strategy: increase  # 버전 업그레이드 전략: 증가
     groups:
-      prod-deps:
-        dependency-type: production
-      dev-deps:
-        dependency-type: development
+      prod-deps:  # 프로덕션 의존성 그룹 설정
+        dependency-type: production  # 프로덕션 의존성만 업데이트
+      dev-deps:  # 개발 의존성 그룹 설정
+        dependency-type: development  # 개발 의존성만 업데이트
     schedule:
-      interval: "weekly"
-  - package-ecosystem: "devcontainers"
-    directory: "/"
+      interval: "weekly"  # 매주 업데이트 확인
+
+  - package-ecosystem: "github-actions"  # GitHub Actions 업데이트 설정
+    directory: "/"  # 루트 디렉토리에서 업데이트 적용
+    groups:
+      gh-actions:  # GitHub Actions 의존성 그룹 설정
+        update-types:
+          - "major"  # 메이저 버전 업데이트만 허용
     schedule:
-      interval: weekly
+      interval: "weekly"  # 매주 업데이트 확인
+
+  - package-ecosystem: "devcontainers"  # DevContainers (개발 환경 컨테이너) 업데이트 설정
+    directory: "/"  # 루트 디렉토리에서 업데이트 적용
+    schedule:
+      interval: weekly  # 매주 업데이트 확인
