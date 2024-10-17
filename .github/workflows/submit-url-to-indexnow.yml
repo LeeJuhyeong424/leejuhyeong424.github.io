@@ -1,8 +1,9 @@
 name: Submit URL to IndexNow
 on:
-  pages:
+  workflow_run:
+    workflows: ["Build and Deploy"]  # GitHub Pages 배포를 담당하는 워크플로우 이름을 지정
     types:
-      - deployed  # GitHub Pages 배포가 완료되면 실행
+      - completed  # 배포가 완료되면 실행
 
 jobs:
   notify:
