@@ -8,12 +8,22 @@ on:
 jobs:
   notify:
     runs-on: ubuntu-latest  # 이 작업은 최신 Ubuntu 환경에서 실행됨
+
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 전체 커밋 히스토리를 가져옵니다.
+
       - name: Get changed files  # 변경된 파일 목록을 가져오는 단계
         id: changed_files  # 이 단계의 결과를 다른 곳에서 참조할 때 사용할 ID
         run: |
-          # git diff 명령어를 사용하여 이전 커밋과 현재 커밋 사이에서 변경된 파일 목록을 가져옴
-          git diff --name-only HEAD^ HEAD | grep '^_posts/' > changed_files.txt
+          # 이전 커밋이 있는지 확인 후 git diff 실행
+          if git rev-parse HEAD^ >/dev/null 2>&1; then
+            git diff --name-only HEAD^ HEAD | grep '^_posts/' > changed_files.txt
+          else
+            touch changed_files.txt
+          fi
           # 변경된 파일 중 .md 파일만 필터링하여 post_files.txt에 저장
           grep -E '\.md$' changed_files.txt > post_files.txt
 
