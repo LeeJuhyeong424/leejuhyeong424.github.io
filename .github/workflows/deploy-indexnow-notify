@@ -1,10 +1,8 @@
 name: Deploy and Notify IndexNow
 
 on:
-  workflow_run:
-    workflows: ["pages build and deployment"]
-    types:
-      - completed
+  pages_build:
+    types: [completed]
 
 jobs:
   deploy:
