@@ -1,0 +1,24 @@
+name: Deploy and Notify IndexNow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Deploy Site
+        run: |
+          # 여기에 GitHub Pages 배포 작업 스크립트
+
+      - name: Trigger IndexNow Action on Private Repository
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          repository: LeeJuhyeong424_Dev
+          event-type: indexnow-trigger
+          token: ${{ secrets.PAT_DEPLOY_TOKEN }}
