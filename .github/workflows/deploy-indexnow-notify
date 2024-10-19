@@ -1,6 +1,6 @@
 on:
-  status:
-    types: [success]
+  pages_build:
+    types: [completed]
 
 jobs:
   deploy:
