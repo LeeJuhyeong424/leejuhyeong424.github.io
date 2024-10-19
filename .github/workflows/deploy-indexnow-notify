@@ -1,8 +1,6 @@
-name: Deploy and Notify IndexNow
-
 on:
-  pages_build:
-    types: [completed]
+  status:
+    types: [success]
 
 jobs:
   deploy:
