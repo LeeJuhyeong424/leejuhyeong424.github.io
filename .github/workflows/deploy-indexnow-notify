@@ -1,9 +1,10 @@
 name: Deploy and Notify IndexNow
 
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows: ["pages build and deployment"]
+    types:
+      - completed
 
 jobs:
   deploy:
@@ -11,10 +12,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-
-      - name: Deploy Site
-        run: |
-          # 여기에 GitHub Pages 배포 작업 스크립트
 
       - name: Trigger IndexNow Action on Private Repository
         uses: peter-evans/repository-dispatch@v2
