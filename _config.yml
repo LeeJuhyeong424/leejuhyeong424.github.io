@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # 사이드바의 아바타 이미지 (로컬 파일 또는 CORS 허용 리소스 지원)
-avatar:
+avatar: /assets/img/favicons/web-app-manifest-512x512.png
 
 # SEO `og:image` 메타 태그에 쓰이는 사이트 전체 소셜 미리보기 이미지 URL
 # 게시글 front matter의 `page.image`로 개별 지정하면 덮어씁니다.
