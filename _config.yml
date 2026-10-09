@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: 쭈꾸미블로그 # 사이트 메인 제목
 
-tagline: 개발 기록 아카이빙 블로 # 부제목으로 표시됨
+tagline: 개발 기록 아카이빙 블로그 # 부제목으로 표시됨
 
 description: >- # SEO 메타 태그와 Atom 피드에 사용됨
   각종 개발 관련 메모 및 기록을 남기는 아카이빙 블로그 입니다.
@@ -110,7 +110,7 @@ toc: true
 actions:
   # 각 게시글 페이지에 "이 글 수정하기" 버튼을 표시해 기여를 유도합니다.
   edit_post:
-    enabled: ㅅ겯 # true로 설정하면 "이 글 수정하기" 버튼 표시
+    enabled: true # true로 설정하면 "이 글 수정하기" 버튼 표시
     url: "https://github.com/LeeJuhyeong424/leejuhyeong424.github.io/edit/main" # 저장소 기본 URL, 예: https://github.com/cotes2020/jekyll-theme-chirpy/edit/master
     # 수정 링크를 동적 URL로 쓸지 정적 URL로 쓸지 선택합니다.
     # `static_url`이 false면 위 `url` 뒤에 게시글 경로가 붙어 최종 수정 링크가 됩니다.
