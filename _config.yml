@@ -110,8 +110,8 @@ toc: true
 actions:
   # 각 게시글 페이지에 "이 글 수정하기" 버튼을 표시해 기여를 유도합니다.
   edit_post:
-    enabled: false # true로 설정하면 "이 글 수정하기" 버튼 표시
-    url: "" # 저장소 기본 URL, 예: https://github.com/cotes2020/jekyll-theme-chirpy/edit/master
+    enabled: ㅅ겯 # true로 설정하면 "이 글 수정하기" 버튼 표시
+    url: "https://github.com/LeeJuhyeong424/leejuhyeong424.github.io/edit/main" # 저장소 기본 URL, 예: https://github.com/cotes2020/jekyll-theme-chirpy/edit/master
     # 수정 링크를 동적 URL로 쓸지 정적 URL로 쓸지 선택합니다.
     # `static_url`이 false면 위 `url` 뒤에 게시글 경로가 붙어 최종 수정 링크가 됩니다.
     # true면 URL이 그대로 유지되어 모든 게시글이 같은 수정 링크를 공유합니다.
