@@ -3,7 +3,7 @@ title: 시작하기
 description: >-
   Chirpy의 기본 사항을 한눈에 살펴봅니다.
   Chirpy 기반 웹사이트를 설치, 설정, 사용하는 방법과 웹 서버에 배포하는 방법을 알아봅니다.
-date: 2026-10-10 02:00:00 +0900
+date: 2026-09-01 02:00:00 +0900
 categories: [블로그, 튜토리얼]
 tags: [getting started]
 ---
