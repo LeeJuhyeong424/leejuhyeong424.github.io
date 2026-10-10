@@ -11,7 +11,7 @@ on:
 
   # 매일 한국 시간 자정(UTC 15:00)에 자동 빌드 → 예약해 둔 글 공개
   schedule:
-    - cron: "0 15 * * *"
+    - cron: "17 * * * *"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
