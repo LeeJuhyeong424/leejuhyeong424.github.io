@@ -18,15 +18,15 @@ tags: [github-pages, github]
 
 1. 아무 페이지에서나 오른쪽 위의 <kbd>+</kbd>를 선택한 다음 **New repository**를 클릭합니다.
 
-   ![새 항목 만들기 메뉴. "New repository" 항목이 강조되어 있음](/assets/img/posts/github-pages/repo-create-global-nav-update.png){: .shadow w='366' h='258' }
+   ![새 항목 만들기 메뉴. "New repository" 항목이 강조되어 있음](/assets/img/posts/repo-create-global-nav-update.png){: .shadow w='366' h='258' }
 
 2. **Owner** 드롭다운 메뉴에서 저장소를 소유할 계정을 선택합니다.
 
-   ![새 저장소의 소유자 메뉴. octocat과 github 두 가지 선택지가 보임](/assets/img/posts/github-pages/create-repository-owner.png){: .shadow w='764' h='152' }
+   ![새 저장소의 소유자 메뉴. octocat과 github 두 가지 선택지가 보임](/assets/img/posts/create-repository-owner.png){: .shadow w='764' h='152' }
 
 3. 저장소 이름과 설명(선택)을 입력합니다. 사용자 또는 조직 사이트를 만든다면 저장소 이름은 반드시 `<user>.github.io` 또는 `<organization>.github.io`여야 합니다. 사용자명이나 조직명에 대문자가 있다면 소문자로 바꿔서 입력해야 합니다. 자세한 내용은 [GitHub Pages 사이트의 종류](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#types-of-github-pages-sites)를 참고하세요.
 
-   ![저장소 이름 입력란에 "octocat.github.io"가 입력된 화면](/assets/img/posts/github-pages/create-repository-name-pages.png){: .shadow w='1106' h='277' }
+   ![저장소 이름 입력란에 "octocat.github.io"가 입력된 화면](/assets/img/posts/create-repository-name-pages.png){: .shadow w='1106' h='277' }
 
 4. 저장소 공개 범위를 선택합니다. 자세한 내용은 [저장소 정보](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories#about-repository-visibility)를 참고하세요.
 5. **Add README**를 **On**으로 켭니다.
@@ -57,7 +57,7 @@ tags: [github-pages, github]
 
 1. 저장소 이름 아래에서 **Settings**를 클릭합니다. "Settings" 탭이 보이지 않으면 <kbd>···</kbd> 드롭다운 메뉴를 선택한 다음 **Settings**를 클릭합니다.
 
-   ![저장소 상단 탭. "Settings" 탭이 강조되어 있음](/assets/img/posts/github-pages/repo-actions-settings.png){: .shadow w='1098' h='108' }
+   ![저장소 상단 탭. "Settings" 탭이 강조되어 있음](/assets/img/posts/repo-actions-settings.png){: .shadow w='1098' h='108' }
 
 2. 사이드바의 "Code, planning, and automation" 섹션에서 **Pages**를 클릭합니다.
 3. 게시된 사이트를 보려면 "GitHub Pages" 아래의 **Visit site**를 클릭합니다.

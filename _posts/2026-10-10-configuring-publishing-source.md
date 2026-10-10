@@ -28,17 +28,17 @@ Jekyll이 아닌 빌드 과정을 사용하고 싶거나, 컴파일된 정적 �
 2. GitHub에서 사이트 저장소로 이동합니다.
 3. 저장소 이름 아래에서 **Settings**를 클릭합니다. "Settings" 탭이 보이지 않으면 <kbd>···</kbd> 드롭다운 메뉴를 선택한 다음 **Settings**를 클릭합니다.
 
-   ![저장소 상단 탭. "Settings" 탭이 강조되어 있음](/assets/img/posts/github-pages/repo-actions-settings.png){: .shadow w='1098' h='108' }
+   ![저장소 상단 탭. "Settings" 탭이 강조되어 있음](/assets/img/posts/repo-actions-settings.png){: .shadow w='1098' h='108' }
 
 4. 사이드바의 "Code, planning, and automation" 섹션에서 **Pages**를 클릭합니다.
 5. "Build and deployment"의 "Source"에서 **Deploy from a branch**를 선택합니다.
 6. "Build and deployment"에서 브랜치 드롭다운 메뉴를 사용해 게시 원본을 선택합니다.
 
-   ![Pages 설정 화면. 게시 원본 브랜치를 고르는 "None" 메뉴가 강조되어 있음](/assets/img/posts/github-pages/publishing-source-drop-down.png){: .shadow w='807' h='148' }
+   ![Pages 설정 화면. 게시 원본 브랜치를 고르는 "None" 메뉴가 강조되어 있음](/assets/img/posts/publishing-source-drop-down.png){: .shadow w='807' h='148' }
 
 7. 필요하면 폴더 드롭다운 메뉴를 사용해 게시 원본 폴더를 선택합니다.
 
-   ![Pages 설정 화면. 게시 원본 폴더를 고르는 "/(root)" 메뉴가 강조되어 있음](/assets/img/posts/github-pages/publishing-source-folder-drop-down.png){: .shadow w='807' h='147' }
+   ![Pages 설정 화면. 게시 원본 폴더를 고르는 "/(root)" 메뉴가 강조되어 있음](/assets/img/posts/publishing-source-folder-drop-down.png){: .shadow w='807' h='147' }
 
 8. **Save**를 클릭합니다.
 

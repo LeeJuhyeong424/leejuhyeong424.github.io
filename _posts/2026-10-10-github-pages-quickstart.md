@@ -16,24 +16,24 @@ tags: [github-pages, github]
 
 1. 아무 페이지에서나 오른쪽 위의 <kbd>+</kbd>를 선택한 다음 **New repository**를 클릭합니다.
 
-   ![새 항목 만들기 메뉴. "New repository" 항목이 강조되어 있음](/assets/img/posts/github-pages/repo-create-global-nav-update.png){: .shadow w='366' h='258' }
+   ![새 항목 만들기 메뉴. "New repository" 항목이 강조되어 있음](/assets/img/posts/repo-create-global-nav-update.png){: .shadow w='366' h='258' }
 
 2. 저장소 이름으로 `username.github.io`를 입력합니다. `username`은 본인의 GitHub 사용자명으로 바꿉니다. 예를 들어 사용자명이 `octocat`이라면 저장소 이름은 `octocat.github.io`가 됩니다.
 
-   ![저장소 이름 입력란에 "octocat.github.io"가 입력된 화면](/assets/img/posts/github-pages/create-repository-name-pages.png){: .shadow w='1106' h='277' }
+   ![저장소 이름 입력란에 "octocat.github.io"가 입력된 화면](/assets/img/posts/create-repository-name-pages.png){: .shadow w='1106' h='277' }
 
 3. 저장소 공개 범위를 선택합니다. 자세한 내용은 [저장소 정보](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories#about-repository-visibility)를 참고하세요.
 4. **Add README**를 **On**으로 켭니다.
 5. **Create repository**를 클릭합니다.
 6. 저장소 이름 아래에서 **Settings**를 클릭합니다. "Settings" 탭이 보이지 않으면 <kbd>···</kbd> 드롭다운 메뉴를 선택한 다음 **Settings**를 클릭합니다.
 
-   ![저장소 상단 탭. "Settings" 탭이 강조되어 있음](/assets/img/posts/github-pages/repo-actions-settings.png){: .shadow w='1098' h='108' }
+   ![저장소 상단 탭. "Settings" 탭이 강조되어 있음](/assets/img/posts/repo-actions-settings.png){: .shadow w='1098' h='108' }
 
 7. 사이드바의 "Code, planning, and automation" 섹션에서 **Pages**를 클릭합니다.
 8. "Build and deployment"의 "Source"에서 **Deploy from a branch**를 선택합니다.
 9. "Build and deployment"의 "Branch"에서 브랜치 드롭다운 메뉴를 사용해 게시 원본을 선택합니다.
 
-   ![Pages 설정 화면. 게시 원본 브랜치를 고르는 "None" 메뉴가 강조되어 있음](/assets/img/posts/github-pages/publishing-source-drop-down.png){: .shadow w='807' h='148' }
+   ![Pages 설정 화면. 게시 원본 브랜치를 고르는 "None" 메뉴가 강조되어 있음](/assets/img/posts/publishing-source-drop-down.png){: .shadow w='807' h='148' }
 
 10. 원한다면 저장소의 `README.md` 파일을 엽니다. 사이트의 내용은 이 `README.md` 파일에 작성합니다. 지금 수정해도 되고, 기본 내용을 그대로 두어도 됩니다.
 11. `username.github.io`에 접속해 새 웹사이트를 확인합니다. 변경 사항을 GitHub에 push한 뒤 사이트에 반영되기까지 최대 10분이 걸릴 수 있습니다.
